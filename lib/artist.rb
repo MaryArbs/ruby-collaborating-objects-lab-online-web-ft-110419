@@ -27,7 +27,7 @@ class Artist
     self.find(name) || self.create(name)
   end
 
-  
+
   def add_song(song)
    @songs << song
    song.artist = self
