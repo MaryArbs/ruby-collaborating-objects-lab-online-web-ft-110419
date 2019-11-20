@@ -40,6 +40,6 @@ class Artist
   end
 
   def songs
-    @songs
+  Song.find_by_artist(self)
   end
 end
