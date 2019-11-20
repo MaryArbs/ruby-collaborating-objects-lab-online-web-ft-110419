@@ -18,7 +18,7 @@
     self.artist = artist
     artist.add_song(self)
   end
-
+end 
 # class Song
 #   @@all=[]
 #
