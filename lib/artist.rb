@@ -40,6 +40,6 @@ class Artist
   end
 
   def songs
-   @songs 
+   @songs
   end
 end
