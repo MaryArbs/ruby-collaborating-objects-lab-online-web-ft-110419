@@ -28,7 +28,7 @@ class Artist
   end
 
 
-  def add_song(song)
+  def add_song(song) #keeps track of an artist's songs
    @songs << song
    song.artist = self
    song
