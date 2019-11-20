@@ -42,7 +42,7 @@ class Artist
   def songs
     @songs
   end
-end 
+end
 # class Artist
 #   attr_accessor :name, :songs
 #
